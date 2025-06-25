@@ -27,8 +27,23 @@ Deployed app at: https://mynexfordsurvey.onrender.com/
 - A bar chart showing ages with the highest income.
 - A grouped chart showing gender distribution across spending categories.
 - Visualizations are exported as image files for use in PowerPoint presentations.
-  
-🚀 Getting Started
+
+---
+
+## 📁 Project Structure
+
+- app.py                # Main Flask app
+- templates/            # HTML templates
+- static/               # Static assets (CSS, JS)
+- get_data.csv          # User data (generated)
+- data_analysis.ipynb   # Jupyter notebook for analysis
+- requirements.txt      # Python dependencies
+- Procfile              # For deployment (Render)
+- README.md             # Project documentation
+
+---
+
+## 🚀 Getting Started
 1. Clone the Repository
    git clone https://github.com/url
    
@@ -50,7 +65,9 @@ Deployed app at: https://mynexfordsurvey.onrender.com/
    python app.py
    The app will be available at http://127.0.0.1:5000/
 
-🌍 Deployment
+---
+
+## 🌍 Deployment
 This project is deployable on Render: https://mynexfordsurvey.onrender.com/
 
 1. Create a requirements.txt file:
@@ -74,25 +91,14 @@ After data is collected:
 * Perform analysis and generate plots.
 * Export visualizations as .png or .jpeg for use in presentations.
 
-  
-📁 Project Structure
+---
 
-🔹 app.py                # Main Flask app
+## 📄 License
 
-🔹 templates/            # HTML templates
+This project is open source and free to use for educational or internal business purposes.
 
-🔹 static/               # Static assets (CSS, JS)
+---
 
-🔹 get_data.csv          # User data (generated)
+## 💬 Contact
 
-🔹 data_analysis.ipynb   # Jupyter notebook for analysis
-
-🔹 requirements.txt      # Python dependencies
-
-🔹 Procfile              # For deployment (Render)
-
-🔹 README.md             # Project documentation
-
-
-📄 License
-This project is for educational purposes and not intended for commercial use without permission.
+For improvements, feel free to open a pull request on my GitHub account or contact me directly - josephdokhare@gmail.com
