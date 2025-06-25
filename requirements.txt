@@ -1,6 +1,7 @@
-Flask==2.3.2
-pymongo==4.6.1
+Flask==3.0.2
+pymongo==4.6.2
 gunicorn==21.2.0
-pandas==2.2.2
-matplotlib==3.8.4
-seaborn==0.13.2
+pandas==2.2.1  # Latest stable with Python 3.11 support
+matplotlib==3.8.3  # Compatible with pandas 2.2.1
+seaborn==0.13.1  # Compatible with above
+python-dotenv==1.0.0
