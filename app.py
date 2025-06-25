@@ -53,6 +53,5 @@ def thank_you():
     return "<h2>Thank you for submitting your data!</h2>"
 
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5000))  # Gets Render's PORT or defaults to 5000
-    debug_mode = os.environ.get('FLASK_ENV') == 'development'  # Debug only in development
-    app.run(host='0.0.0.0', port=port, debug=debug_mode)
+    port = int(os.environ.get('PORT', 5000))  # Render provides PORT environment variable
+    app.run(host='0.0.0.0', port=port)  # Must use 0.0.0.0 for Render
